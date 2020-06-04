@@ -1,0 +1,33 @@
+body
+{
+	background: url(fond.jpg) repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	background-position: left top;
+	background-attachment: fixed;
+	text-align: center;
+	color: #404040;
+	margin: 0px;
+} 
+
+.texte
+{
+	text-align: center;
+ 	background-color: #fff; 
+	background-repeat: repeat-x;
+	height: 500px;
+	padding-top: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.fond
+{
+	background: url(p1.png) repeat-x;
+	height: 9px;
+}
+
+.italique
+{
+	font-style: italic;
+	font-size: 12px;
+}

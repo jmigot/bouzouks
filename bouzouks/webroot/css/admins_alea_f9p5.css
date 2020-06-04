@@ -1,0 +1,205 @@
+/*--------------------------------------------------*/
+/*          		Style général                   */
+/*--------------------------------------------------*/
+
+/* Onglet */
+.onglet_admin {
+	position: absolute;
+	top: -16px;
+	left: 195px;
+	width: 640px;
+	overflow:hidden;
+	height: 47px;
+	-webkit-transform: rotate(1.1deg);
+	transform: rotate(1.1deg);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.onglet_admin .deco {
+	float: left;
+	width: 100%;
+	height: 25px;
+	margin: -23px 0px 0px 0px;
+	padding: 0px;
+}
+
+.onglet_admin .menu {
+	float: left;
+	height: 47px;
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	margin-left: 20px;
+	padding: 0px;
+}
+
+.onglet_admin .menu .actif {
+	float: left;
+	display: block;
+	margin: 5px 3px 0px 0px;
+	color:#000;
+	height: 35px;
+	padding: 5px;
+	background: url(../images/design/onglet_actif.png) no-repeat;
+}
+
+.onglet_admin .menu a {
+	float: left;
+	display: block;
+	margin: 5px 3px 0px 0px;
+	color:#fff;
+	height: 35px;
+	padding: 5px; 
+	background: url(../images/design/onglet_inactif.png) no-repeat;
+}
+
+.onglet_admin .menu a:hover {
+	float: left; color:#000; margin: 0px 3px 0px 0px;
+}
+
+#nav_admin {
+	margin: 1em 0;
+	text-align: center;
+}
+
+#nav_admin a {
+	font: 1em "Trebuchet MS",Arial,sans-serif ;
+	line-height: 1em ;
+	text-align: center ;
+	text-decoration: none ;
+	outline:none; margin-top: 5px; 
+	height: 24px;
+	margin :0 .25em; 
+	padding: 0 20px 0 20px; 
+	color: #000; 
+	background-color: #f86161;
+	background: transparent url(../images/layout_teaser/skins_formulaire/submit_rouge.png);
+	background-size: 100% 100%; 
+	cursor:pointer; 
+	border-radius: 12px; 
+	border: 2px groove #ffffff; 
+	box-shadow: 1px 1px 1px 0px #000000; 
+	opacity: 1; 
+	transition-property: all; 
+	transition-duration: 0.1s;
+}
+
+#nav_admin a:hover { 
+	opacity:0.85; 
+	cursor: pointer; 
+	outline:none; 
+}
+
+#nav_admin a:active { 
+	box-shadow: 0px 0px 1px 0px #000000; 
+}
+.bloc_bleu input[type="submit"], .bloc_bleu input[type="button"] {  }
+
+/*--------------------------------------------------*/
+/*          Configuration du jeu                    */
+/*--------------------------------------------------*/
+#staff-gerer_config table { width: 100%; }
+#staff-gerer_config table th { text-align: left; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; white-space: nowrap; }
+#staff-gerer_config table td { padding: 1px 5px; text-align: left; }
+#staff-gerer_config table td input { border: 1px solid transparent; color: #555; background-color: transparent; text-align: center; }
+#staff-gerer_config table td input[class=gauche] { text-align: left; }
+#staff-gerer_config table td input:hover,
+#staff-gerer_config table td textarea:hover { background: #eee; border: 1px solid #dbc39f; box-shadow: 0px 0px 5px red; }
+#staff-gerer_config table tr td:nth-child(2) { width: 1px; white-space: nowrap; padding-right: 20px; }
+#staff-gerer_config p[class=highlight] { margin-top: 20px; }
+
+/*--------------------------------------------------*/
+/*          Historique modération                   */
+/*--------------------------------------------------*/
+#staff-historique_moderation .lignes { width: 100%; }
+#staff-historique_moderation .lignes th { text-align: left; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; }
+#staff-historique_moderation .lignes td { padding: 0 5px; }
+#staff-historique_moderation .lignes tr td:nth-child(1) { width: 1px; white-space: nowrap; }
+#staff-historique_moderation .lignes td p[class=highlight] { margin: 0; padding: 1px 20px; }
+
+/*--------------------------------------------------*/
+/*          Gérer bot IRC                           */
+/*--------------------------------------------------*/
+#staff-gerer_bot_irc table { width: 100%; }
+#staff-gerer_bot_irc table td:nth-child(1) { width: 30%; }
+
+/*--------------------------------------------------*/
+/*          Gérer joueurs                           */
+/*--------------------------------------------------*/
+#staff-gerer_joueurs table { text-align: left; width: 100%; }
+#staff-gerer_joueurs table td { padding: 0 5px; }
+#staff-gerer_joueurs table td input[type=text],
+#staff-gerer_joueurs table td textarea,
+#staff-gerer_joueurs table td select { border: 1px solid #dbc39f; color: #555; background-color: transparent; }
+#staff-gerer_joueurs table td input[type=text]:hover,
+#staff-gerer_joueurs table td textarea:hover,
+#staff-gerer_joueurs table td select:hover { background: #eee; border: 1px solid #dbc39f; box-shadow: 0px 0px 5px red; }
+#staff-gerer_joueurs table tr td:nth-child(odd) label { text-align: right; margin: 3px 1px; padding: 2px 10px 2px 30px; vertical-align: middle; display: block; }
+#staff-gerer_joueurs .ajouter_objet table td { border: 0; padding: 0; }
+#staff-gerer_joueurs .ajouter_objet table td p[class=highlight] { margin: 0; padding: 1px 5px; }
+
+/*--------------------------------------------------*/
+/*          Gérer news                              */
+/*--------------------------------------------------*/
+#staff-gerer_news table { width: 100%; }
+#staff-gerer_news table th { text-align: left; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; }
+#staff-gerer_news table td { padding: 0 10px; }
+#staff-gerer_news table td p[class=highlight] { margin: 0; padding: 2px 15px; }
+#staff-gerer_news table td input[type=submit] { margin: 0; padding: 2px 10px; }
+#staff-gerer_news table tr td:nth-child(1),
+#staff-gerer_news table tr td:nth-child(2),
+#staff-gerer_news table tr td:nth-child(4),
+#staff-gerer_news table tr td:nth-child(5) { width: 1px; white-space: nowrap; }
+
+/*--------------------------------------------------*/
+/*          Gérer objets                            */
+/*--------------------------------------------------*/
+#staff-gerer_objets table { width: 100%; }
+#staff-gerer_objets table th { text-align: center; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; white-space: nowrap; }
+#staff-gerer_objets table td { padding: 1px 3px; text-align: center; }
+#staff-gerer_objets td:nth-child(1){ text-align: left; }
+#staff-gerer_objets table td p[class=highlight] { margin: 0; padding: 2px 0; }
+#staff-gerer_objets table td input[type=submit] { margin: 0; padding: 0 10px; }
+#staff-gerer_objets table td input[type=text],
+#staff-gerer_objets table td select { border: 1px solid transparent; background-color: transparent; text-align: center; }
+#staff-gerer_objets table td:nth-child(1) input[type=text],
+#staff-gerer_objets table td select { text-align: left; }
+#staff-gerer_objets table td input[type=text]:hover,
+#staff-gerer_objets table td select:hover { background: #eee; border: 1px solid #dbc39f; box-shadow: 0px 0px 5px red; }
+#staff-gerer_objets .quantites table td { padding: 0 3px; text-align: center; }
+#staff-gerer_objets .quantites table td p[class=highlight] { margin: 0; padding: 1px 10px; }
+#staff-gerer_objets .quantites table td:nth-child(1) { text-align: left; }
+
+/*--------------------------------------------------*/
+/*          Gérer site                              */
+/*--------------------------------------------------*/
+#staff-gerer_site table { width: 100%; } 
+
+/*--------------------------------------------------*/
+/*          Plus de struls                          */
+/*--------------------------------------------------*/
+#staff-plus_de_struls table { width: 100%; }
+#staff-plus_de_struls table th { text-align: center; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; white-space: nowrap; }
+#staff-plus_de_struls table th:nth-child(-n+2),
+#staff-plus_de_struls table td:nth-child(-n+2) { text-align: left; }
+#staff-plus_de_struls table td { padding: 1px 5px; text-align: center; }
+#staff-plus_de_struls table td p[class=highlight] { margin: 0; padding: 2px 5px; text-align: center; }
+
+/*--------------------------------------------------*/
+/*          Dons paypal                             */
+/*--------------------------------------------------*/
+#staff-dons_paypal table { width: 100%; }
+#staff-dons_paypal table th { text-align: center; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; white-space: nowrap; }
+#staff-dons_paypal table th:nth-child(-n+2),
+#staff-dons_paypal table td:nth-child(-n+2){ text-align: left; }
+#staff-dons_paypal table td { padding: 1px 5px; text-align: center; }
+#staff-dons_paypal table td:nth-child(4) { text-align: left; }
+#staff-dons_paypal table td:nth-child(-n+3) { width: 1px; white-space: nowrap; }
+#staff-dons_paypal table td p[class=highlight] { margin: 0; padding: 2px 15px; text-align: center; }
+#staff-dons_paypal .donner table td { white-space: normal; }
+
+/*--------------------------------------------------*/
+/*          Gérer vlux                              */
+/*--------------------------------------------------*/

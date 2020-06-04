@@ -1,0 +1,15 @@
+tobozon/cache
+tobozon/img/avatars
+tobozon/config.php
+application/logs
+application/cache
+sessions
+*.tgz
+*.project
+*.db
+*.log
+application/servers/node_modules
+application/config/development
+bouzou.sublime-project
+bouzou.sublime-workspace
+.idea/

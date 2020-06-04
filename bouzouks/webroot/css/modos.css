@@ -1,0 +1,110 @@
+/*--------------------------------------------------*/
+/*          Modérer annonces                        */
+/*--------------------------------------------------*/
+#staff-moderer_annonces table { width: 100%; }
+#staff-moderer_annonces table th { text-align: left; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; }
+#staff-moderer_annonces table tr td:nth-child(n+2) { width: 1px; white-space: nowrap; }
+#staff-moderer_annonces table td textarea { width: 98%; margin: 10px 0; background: #f9d2ae; border: 1px solid transparent; color: #333; padding: 5px; }
+#staff-moderer_annonces table td textarea:hover { background: #eee; border: 1px solid #dbc39f; box-shadow: 0px 0px 5px blue; }
+
+/*--------------------------------------------------*/
+/*          Modérer élections                       */
+/*--------------------------------------------------*/
+#staff-moderer_elections .candidat { padding: 10px; }
+#staff-moderer_elections .perso { margin-right: 20px; }
+#staff-moderer_elections .perso img { max-width: 80px; max-height: 90px; }
+#staff-moderer_elections textarea { border: 1px solid transparent; color: #555; background-color: transparent; }
+#staff-moderer_elections textarea:hover { background: #eee; border: 1px solid #dbc39f; box-shadow: 0px 0px 5px blue; }
+
+/*--------------------------------------------------*/
+/*          Modérer mendiants                       */
+/*--------------------------------------------------*/
+#staff-moderer_mendiants .mendiant { width: 208px; margin: 10px 0 0 15px;  text-align: center; display: inline-block; vertical-align: top; }
+#staff-moderer_mendiants .mendiant input[type="submit"] { padding: 0 5px; }
+#staff-moderer_mendiants .mendiant .joueur { width: 100%; float: left; background: url(../images/mendiants/bulle_1.png) bottom no-repeat; }
+#staff-moderer_mendiants .mendiant .infos { margin: 15px 0 0 5px; float: left; }
+#staff-moderer_mendiants .mendiant .argument { width: 206px; float: left; background-color: #fff; border-left: 1px solid #777571; border-right: 1px solid #777571; text-align: center; font-style: italic; }
+#staff-moderer_mendiants .mendiant .bulle_fin { width: 100%; height: 6px; float: left; background-image: url(../images/mendiants/bulle_2.png); margin-bottom: 2px; }
+#staff-moderer_mendiants textarea { border: 1px solid transparent; color: #555; background-color: transparent; }
+#staff-moderer_mendiants textarea:hover { background: #eee; border: 1px solid #dbc39f; box-shadow: 0px 0px 5px blue; }
+
+/*--------------------------------------------------*/
+/*          Modérer tchat IRC                       */
+/*--------------------------------------------------*/
+#staff-moderer_irc-voir_log .logs { width: 100%; height: 800px; overflow: auto; }
+#staff-moderer_irc-voir_log table { width: 100%; }
+#staff-moderer_irc-voir_log table td:nth-child(1) { color: #111; width: 1px; white-space: nowrap; padding: 0; }
+#staff-moderer_irc-voir_log table td:nth-child(2) { text-align: right; width: 1px; white-space: nowrap; border-right: 1px solid #000; padding: 0 5px; }
+#staff-moderer_irc-voir_log table td:nth-child(3) { padding-left: 5px; }
+#staff-moderer_irc-voir_log .join { color: #0a0; }
+#staff-moderer_irc-voir_log .quit { color: #555; }
+#staff-moderer_irc-voir_log .part { color: #555; }
+#staff-moderer_irc-voir_log .nick { color: #555; }
+#staff-moderer_irc-voir_log .privmsg { color: #222; }
+#staff-moderer_irc-voir_log .me { color: #222; }
+#staff-moderer_irc-voir_log .me-nick { color: #00d; }
+#staff-moderer_irc-voir_log .kick { color: #c00; }
+#staff-moderer_irc-voir_log .mode { color: #00c; }
+
+/*--------------------------------------------------*/
+/*          Modérer missives                        */
+/*--------------------------------------------------*/
+#staff-moderer_missives table { width: 100%; }
+#staff-moderer_missives table th { text-align: left; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; white-space: nowrap; }
+#staff-moderer_missives table td { padding: 1px 5px; text-align: left; }
+#staff-moderer_missives table td p[class=highlight] { margin: 0; padding: 2px 5px; }
+#staff-moderer_missives table tr td:nth-child(1) { width: 1px; white-space: nowrap; }
+#staff-moderer_missives table tr td:nth-child(2) { max-width: 500px; }
+
+/*--------------------------------------------------*/
+/*          Modérer profil                          */
+/*--------------------------------------------------*/
+#staff-moderer_profils table { text-align: left; }
+#staff-moderer_profils table td input[type=text],
+#staff-moderer_profils table td textarea,
+#staff-moderer_profils table td select { border: 1px solid #dbc39f; color: #555; background-color: transparent; }
+#staff-moderer_profils table td input[type=text]:hover,
+#staff-moderer_profils table td textarea:hover,
+#staff-moderer_profils table td select:hover { background: #eee; border: 1px solid #dbc39f; box-shadow: 0px 0px 5px blue; box-shadow: 0px 0px 5px blue; }
+#staff-moderer_profils table tr td:nth-child(odd) label { text-align: right; margin: 1px; padding: 2px 10px 2px 50px; vertical-align: middle; display: block; }
+
+/*--------------------------------------------------*/
+/*          Modérer rumeurs                         */
+/*--------------------------------------------------*/
+#staff-moderer_rumeurs table { width: 100%; }
+#staff-moderer_rumeurs table th { text-align: left; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; white-space: nowrap; }
+#staff-moderer_rumeurs table td { padding: 1px 5px; }
+#staff-moderer_rumeurs table td p[class=highlight] { margin: 0; padding: 2px 5px; text-align: center; }
+#staff-moderer_rumeurs table td input[type=submit] { margin: 0; padding: 0 15px; }
+#staff-moderer_rumeurs table td input[type=text] { width: 98%; margin: 10px 0; background: #f9d2ae; border: 1px solid transparent; color: #333; padding: 5px; }
+#staff-moderer_rumeurs table td input[type=text]:hover { background: #eee; border: 1px solid #dbc39f; box-shadow: 0px 0px 5px blue; }
+
+/*--------------------------------------------------*/
+/*          Modérer entreprises                     */
+/*--------------------------------------------------*/
+#staff-moderer_tchats div[class*=selecteur] { display: none; }
+#staff-moderer_tchats input[type=button] { margin: 0; padding: 1px 25px; }
+#staff-moderer_tchats .infos { padding: 0; }
+#staff-moderer_tchats .infos table { width: 100%; }
+#staff-moderer_tchats .infos table td:nth-child(2) { width: 1px; white-space: nowrap; }
+#staff-moderer_tchats .infos table td { padding: 1px 5px; }
+#staff-moderer_tchats .infos table td p[class=highlight] { margin: 0; padding: 2px 5px; }
+#staff-moderer_tchats .test { margin: 15px 0; }
+
+/*--------------------------------------------------*/
+/*          Modérer clans                           */
+/*--------------------------------------------------*/
+#staff-moderer_clans-index table { width: 100%; }
+#staff-moderer_clans-index table th { text-align: left; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; white-space: nowrap; }
+#staff-moderer_clans-index table td { padding: 1px 5px; }
+#staff-moderer_clans-index table td p[class*=highlight] { margin: 0; padding: 1px 5px; text-align: center; }
+#staff-moderer_clans-index table td img[class*=enchere_]:hover { cursor: pointer; box-shadow: 0 0 8px green; border-radius: 7px; }
+
+/*--------------------------------------------------*/
+/*          Modérer parrainages                     */
+/*--------------------------------------------------*/
+#staff-moderer_parrainages table { width: 100%; }
+#staff-moderer_parrainages table th { text-align: center; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; white-space: nowrap; }
+#staff-moderer_parrainages table td { padding: 1px 5px; text-align: center; }
+#staff-moderer_parrainages table td p[class*=highlight] { margin: 0; padding: 1px 5px; text-align: center; }
+#staff-moderer_parrainages table td input[type=submit] { margin: 0; padding: 0 15px; }

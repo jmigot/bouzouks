@@ -1,0 +1,64 @@
+/*--------------------------------------------------*/
+/*          Multicomptes                            */
+/*--------------------------------------------------*/
+#staff-multicomptes table { width: 100%; }
+#staff-multicomptes table th { text-align: left; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; }
+#staff-multicomptes table td { padding: 0 10px; }
+#staff-multicomptes table td[class=highlight] { margin: 0; padding: 1px 15px; text-align: center; }
+#staff-multicomptes table td:nth-child(n+2) { width: 1px; white-space: nowrap; }
+#staff-multicomptes table td p[class=highlight] { margin: 0; padding: 0 5px; }
+
+/*--------------------------------------------------*/
+/*          Marché noir                             */
+/*--------------------------------------------------*/
+#staff-multicomptes-marche_noir table { width: 100%; }
+#staff-multicomptes-marche_noir table th { text-align: left; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; }
+#staff-multicomptes-marche_noir table td { padding: 0 10px; }
+#staff-multicomptes-marche_noir table td p[class=highlight] { margin: 0; padding: 1px 5px; }
+#staff-multicomptes-marche_noir table tr td:nth-child(1),
+#staff-multicomptes-marche_noir table tr td:nth-child(2),
+#staff-multicomptes-marche_noir table tr td:nth-child(3),
+#staff-multicomptes-marche_noir table tr td:nth-child(5),
+#staff-multicomptes-marche_noir table tr td:nth-child(6) { width: 1px; white-space: nowrap; }
+
+/*--------------------------------------------------*/
+/*          Votes élections                         */
+/*--------------------------------------------------*/
+#staff-multicomptes-votes table th { text-align: left; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; }
+#staff-multicomptes-votes table td { padding: 0 10px; }
+#staff-multicomptes-votes table td p[class=highlight] { margin: 0; padding: 1px 5px; } 
+
+/*--------------------------------------------------*/
+/*          Payes employés                          */
+/*--------------------------------------------------*/
+#staff-multicomptes-payes_employes table { width: 100%; }
+#staff-multicomptes-payes_employes table th { text-align: left; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; }
+#staff-multicomptes-payes_employes table td { padding: 0 10px; }
+#staff-multicomptes-payes_employes table td p[class=highlight] { margin: 0; padding: 1px 15px; text-align: center; }
+#staff-multicomptes-payes_employes table td:nth-child(-n+6) { width: 1px; white-space: nowrap; }
+
+/*--------------------------------------------------*/
+/*          Parties plouk                           */
+/*--------------------------------------------------*/
+#staff-multicomptes-plouk_parties table { width: 100%; }
+#staff-multicomptes-plouk_parties table th { text-align: center; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; }
+#staff-multicomptes-plouk_parties table td { padding: 0 5px; text-align: center; }
+#staff-multicomptes-plouk_parties table td p[class=highlight] { margin: 0; padding: 1px 5px; text-align: center; }
+
+/*--------------------------------------------------*/
+/*          Profils améliorés                       */
+/*--------------------------------------------------*/
+#communaute-profil .marche_noir { width: 100%; }
+#communaute-profil .marche_noir th { text-align: left; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; }
+#communaute-profil .marche_noir td { padding: 0 10px; }
+#communaute-profil .marche_noir tr td:nth-child(1),
+#communaute-profil .marche_noir tr td:nth-child(2),
+#communaute-profil .marche_noir tr td:nth-child(3),
+#communaute-profil .marche_noir tr td:nth-child(5),
+#communaute-profil .marche_noir tr td:nth-child(6) { width: 1px; white-space: nowrap; }
+#communaute-profil .marche_noir td p[class=highlight] { margin: 0; padding: 1px 5px; }
+
+#communaute-profil .parties { width: 100%; }
+#communaute-profil .parties th { text-align: left; padding: 5px 5px 2px 5px; font-weight: normal; color: #000; }
+#communaute-profil .parties td { padding: 0 5px; text-align: center; }
+#communaute-profil .parties td p[class=highlight] { margin: 0; padding: 1px 5px; text-align: center; }
