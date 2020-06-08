@@ -21,3 +21,5 @@ Certaines parties n'ont pas été incluses :
 - les différents screenshots
 - le code de la v1
 - l'application mobile Scraplouk
+
+![alt text](https://github.com/jmigot/bouzouks/blob/master/bouzouks.png?raw=true)
