@@ -8,7 +8,7 @@ Jeu en ligne développé avec les technos suivantes :
 Les métriques du projet :
 - 100 000 lignes de code tout confondu
 - 100 tables SQL relationnelles
-- 1000 heures de travail sur plusieurs mois avec une seule personne
+- 1000 heures de travail sur plusieurs mois (une seule personne)
 
 Ce qui est inclus :
 - le code du site web
